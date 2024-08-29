@@ -2,6 +2,8 @@
 
 This is a repository for the `Udacity - Data Scientist` course 2 project.
 
+![doc/logo.jpg](doc/logo.jpg)
+
 ## Table of Contents
 
 1. [Installing](#installing)
@@ -35,8 +37,10 @@ Install all needed packages from requirements.txt into virtual environment
 pip install -r requirements.txt
 ```
 Download the stackoverflow survey data from 
+
 - 2024 
 - 2020
+
 to the ./data folder
 ```shell
 cd ./data
@@ -56,11 +60,10 @@ Unzip the survey results into the data folder. The final folder structure should
 open analysis in jupyter notebook
 ```shell
 cd /path/to/this/repository
+```
+```shell
 jupyter notebook stackoverflow_survey_analysis.ipynb
 ```
-
-https://survey.stackoverflow.co/
-
 
 ## Project Motivation
 
