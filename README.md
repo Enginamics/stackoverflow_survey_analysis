@@ -15,8 +15,18 @@ This is a repository for the `Udacity - Data Scientist` course 2 project.
 
 ## Installing
 
-python 3.12.5
+### If you just want to have a look at the results 
+open [stackoverflow_survey_analysis.ipynb](https://github.com/Enginamics/stackoverflow_survey_analysis/blob/main/stackoverflow_survey_analysis.ipynb) directly on github (then you don't have to install anything)
 
+### If you want to rerun or extend the analysis:
+
+Make sure [python 3.12.5](https://www.python.org/downloads/release/python-3125/) is installed on your machine
+
+Clone this repository to your machine:
+```shell
+git clone https://github.com/Enginamics/stackoverflow_survey_analysis.git
+```
+Then create the virtual python environment in the cloned repository
 ```shell
 cd /path/to/this/repository
 ```
@@ -57,7 +67,7 @@ Unzip the survey results into the data folder. The final folder structure should
 
 ## Getting started
 
-open analysis in jupyter notebook
+open analysis either [on github](https://github.com/Enginamics/stackoverflow_survey_analysis/blob/main/stackoverflow_survey_analysis.ipynb) or in your jupyter notebook
 ```shell
 cd /path/to/this/repository
 ```
