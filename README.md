@@ -6,21 +6,29 @@ This is a repository for the `Udacity - Data Scientist` course 2 project.
 
 ## Table of Contents
 
-1. [Installing](#installing)
-2. [Getting started](#getting-started)
-3. [Project Motivation](#project-motivation)
-4. [Results](#results)
+1. [Project Motivation](#project-motivation)
+2. [Results](#results)
+3. [Installing](#installing)
+4. [Getting started](#getting-started)
 5. [Licensing, Authors, and Acknowledgements](#licensing-authors-and-acknowledgements)
 6. [Troubleshooting](#troubleshooting)
 
+## Project Motivation
+
+The motivation of this project is to familiarize with the data science process outlined by the CRISP-DM framework during the Udacity Data Science course and to apply the acquired knowledge to a real-world problem.
+
+## Results
+
+The results of the analysis can be found in this blog post: [add link here]("")
+
 ## Installing
 
-### If you just want to have a look at the results 
+### If you just want to have a look at the analysis:
 open [stackoverflow_survey_analysis.ipynb](https://github.com/Enginamics/stackoverflow_survey_analysis/blob/main/stackoverflow_survey_analysis.ipynb) directly on github (then you don't have to install anything)
 
 ### If you want to rerun or extend the analysis:
 
-Make sure [python 3.12.5](https://www.python.org/downloads/release/python-3125/) is installed on your machine
+Make sure [python 3.12.5](https://www.python.org/downloads/release/python-3125/) (or newer) is installed on your machine
 
 Clone this repository to your machine:
 ```shell
@@ -33,7 +41,7 @@ cd /path/to/this/repository
 ```shell
 python -m venv .venv
 ```
-Then activate virtual environment
+Then activate the virtual environment
 - On Windows:
     ```shell
     .venv\Scripts\activate
@@ -48,8 +56,8 @@ pip install -r requirements.txt
 ```
 Download the stackoverflow survey data from 
 
-- 2024 
-- 2020
+- 2020  
+- 2024   
 
 to the ./data folder
 ```shell
@@ -60,10 +68,13 @@ curl https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-20
 ```
 - if there are problems with the links, the survey results from 2020 and 2024 can be downloaded [here](https://survey.stackoverflow.co/)
 
-Unzip the survey results into the data folder. The final folder structure should look like this:
-> ./data/stack-overflow-developer-survey-2020/survey_results_public.csv
+Unzip the survey results into the data folder.   
+The final folder structure should look like this:
+> ./data/stack-overflow-developer-survey-2020/survey_results_public.csv   
+> ./data/stack-overflow-developer-survey-2020/survey_results_schema.csv
 
-> ./data/stack-overflow-developer-survey-2024/survey_results_public.csv
+> ./data/stack-overflow-developer-survey-2024/survey_results_public.csv   
+> ./data/stack-overflow-developer-survey-2024/survey_results_schema.csv
 
 ## Getting started
 
@@ -75,17 +86,11 @@ cd /path/to/this/repository
 jupyter notebook stackoverflow_survey_analysis.ipynb
 ```
 
-## Project Motivation
-
-<!-- ToDo adding project motivation here -->
-
-## Results
-
-<!-- ToDo adding link to blog post here -->
-
 ## Licensing, Authors, and Acknowledgements
 
 Big thank's to stackoverflow for providing the [survey results](https://survey.stackoverflow.co/)
+
+A special thanks to the Udacity Data Science Course, which made this analysis possible.
 
 ## Troubleshooting
 
