@@ -110,9 +110,9 @@ jupyter notebook stackoverflow_survey_analysis.ipynb
 
 ## Licensing, Authors, and Acknowledgements
 
-Big thank's to stackoverflow for providing the [survey results](https://survey.stackoverflow.co/)
+Big thank's to Stack Overflow for providing the [survey results](https://survey.stackoverflow.co/)
 
-A special thanks to the Udacity Data Science Course, which made this analysis possible.
+A special thanks to the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course, which made this analysis possible.
 
 ## Troubleshooting
 
