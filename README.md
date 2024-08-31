@@ -1,6 +1,6 @@
 # stackoverflow_survey_analysis
 
-This is a repository for the `Udacity - Data Scientist` course 2 project.
+This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project.
 
 ![doc/logo.jpg](doc/logo.jpg)
 
@@ -8,18 +8,46 @@ This is a repository for the `Udacity - Data Scientist` course 2 project.
 
 1. [Project Motivation](#project-motivation)
 2. [Results](#results)
-3. [Installing](#installing)
-4. [Getting started](#getting-started)
-5. [Licensing, Authors, and Acknowledgements](#licensing-authors-and-acknowledgements)
-6. [Troubleshooting](#troubleshooting)
+3. [Files and Folders](#files-and-folders)
+4. [Installing](#installing)
+5. [Getting started](#getting-started)
+6. [Licensing, Authors, and Acknowledgements](#licensing-authors-and-acknowledgements)
+7. [Troubleshooting](#troubleshooting)
 
 ## Project Motivation
 
-The motivation of this project is to familiarize with the data science process outlined by the CRISP-DM framework during the Udacity Data Science course and to apply the acquired knowledge to a real-world problem.
+The main objective of this analysis is to get used to the data science process according to [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) taught during the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course and to apply the acquired knowledge to a real-world problem.
+
+To achieve this, the analysis will use the [Stack Overflow surveys from 2020 and 2024](https://survey.stackoverflow.co/) to address the following three questions:
+
+**When comparing the results from 2020 to 2024 ...**  
+
+- **Question 1: ... did the difficulty of the survey increase over the past four years?**
+  - *Relevance*: Understanding changes in survey difficulty over time can help to ensure that any observed trends or patterns in the results are not due to changes in survey complexity.
+
+- **Question 2: ... did the past four years change the general job statisfaction?**   
+  - *Relevance*: Analyzing shifts in job satisfaction over time can provide insights into the impact of external factors such as economic conditions or general changes in working conditions.
+
+- **Question 3: ... did the past four years change job compensation?**   
+  - *Relevance*: Examining changes in job compensation over the past four years helps to see trends in salary growth, inflation adjustments, and how economic factors or industry shifts may have influenced compensation practices.
 
 ## Results
 
 The results of the analysis can be found in this blog post: [add link here]("")
+
+## Files and Folders
+
+This GitHub repository consists of the following main files and folders:
+
+
+- `stackoverflow_survey_analysis.ipynb`   
+    - Main Jupyter Notebook which describes the survey in detail   
+- requirements.txt   
+    - This file specifies the dependencies used by the project (see chapter [Installing](#installing) for more details)   
+- ./data
+    - Folder to store the Stack Overflow survey data from 2020 and 2024 (see chapter [Installing](#installing) for more details)     
+- ./doc   
+    - Folder which holds additional file(s) used by the documentation   
 
 ## Installing
 
@@ -54,12 +82,7 @@ Install all needed packages from requirements.txt into virtual environment
 ```shell
 pip install -r requirements.txt
 ```
-Download the stackoverflow survey data from 
-
-- 2020  
-- 2024   
-
-to the ./data folder
+Download the Stack Overflow survey data from **2020** and **2024** to the ./data folder with the following commands   
 ```shell
 cd ./data
 ```
@@ -68,8 +91,7 @@ curl https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-20
 ```
 - if there are problems with the links, the survey results from 2020 and 2024 can be downloaded [here](https://survey.stackoverflow.co/)
 
-Unzip the survey results into the data folder.   
-The final folder structure should look like this:
+Unzip the survey results into the data folder. The final folder/file structure should look like this:
 > ./data/stack-overflow-developer-survey-2020/survey_results_public.csv   
 > ./data/stack-overflow-developer-survey-2020/survey_results_schema.csv
 
