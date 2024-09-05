@@ -22,14 +22,14 @@ To achieve this, the analysis will use the [Stack Overflow surveys from 2020 to 
 
 **When comparing the results from 2020 to 2024 ...**  
 
-- **Question 1: ... did the difficulty of the survey increase over the past four years?**
+- **Question 1: ... did the difficulty of the survey increase over the past years?**
   - *Relevance*: Understanding changes in survey difficulty over time can help to ensure that any observed trends or patterns in the results are not due to changes in survey complexity.
 
-- **Question 2: ... does the length of the survey have and effect on its experienced difficulty?**   
+- **Question 2: ... does the length of the survey have an effect on its experienced difficulty?**   
   - *Relevance*: Evaluating if the length of the survey influences the perceived difficulty helps to understand if the responses are affected by survey fatigue, which could impact the reliability of the results and the quality of the data collected.
 
-- **Question 3: ... did the past four years change job compensation?**   
-  - *Relevance*: Examining changes in job compensation over the past four years helps to see trends in salary growth, inflation adjustments, and how economic factors or industry shifts may have influenced compensation practices.
+- **Question 3: ... did the age of participants change over the past years?**   
+  - *Relevance*: Analyzing changes in the age distribution of participants over time can reveal demographic shifts in the survey population.
 
 ## Results
 
@@ -38,7 +38,6 @@ The results of the analysis can be found in this blog post: [add link here]("")
 ## Files and Folders
 
 This GitHub repository consists of the following main files and folders:
-
 
 - `stackoverflow_survey_analysis.ipynb`   
     - Main Jupyter Notebook which describes the survey in detail   
@@ -78,11 +77,20 @@ Then activate the virtual environment
     ```shell
     source .venv/bin/activate
     ```
-Install all needed packages from requirements.txt into virtual environment
+The poroject uses the python packages
+
+- matplotlib
+- notebook
+- numpy
+- pandas
+- scikit-learn
+- seaborn
+
+which all can be installed via the provided requirements.txt into the virtual environment
 ```shell
 pip install -r requirements.txt
 ```
-Download the Stack Overflow survey data from **2020**, **2021**, **2022**, **2023** and **2024** to the ./data folder with the following commands   
+After that, download the Stack Overflow survey data from **2020**, **2021**, **2022**, **2023** and **2024** to the ./data folder with the following commands   
 ```shell
 cd ./data
 ```
@@ -106,6 +114,8 @@ Unzip the survey results into the data folder. The final folder/file structure s
 
 > ./data/stack-overflow-developer-survey-`2024`/survey_results_public.csv   
 > ./data/stack-overflow-developer-survey-`2024`/survey_results_schema.csv   
+
+This was the last step and the installation is finished.
 
 ## Getting started
 
