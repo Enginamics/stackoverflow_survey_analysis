@@ -1,6 +1,14 @@
 # stackoverflow_survey_analysis
 
-This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project and analyses the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) based on three self-posed questions.
+This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project and analyses the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) based on the following three self-posed questions.
+
+When comparing the results from 2020 to 2024 ...
+
+- Question 1: ... did the difficulty of the survey increase over the past years?   
+
+- Question 2: ... does the length of the survey have an effect on its experienced difficulty?   
+
+- Question 3: ... did the age of participants change over the past years?   
 
 ![doc/logo.jpg](doc/logo.jpg)
 
@@ -46,7 +54,9 @@ To achieve this, the analysis will use the [Stack Overflow surveys from 2020 to 
 
 ## Results
 
-The results of the analysis can be found in this blog post: [add link here]("")
+The results of the analysis can be found in this blog post on medium: [Data Science: Let’s Get Started!](https://medium.com/@enginamics/data-science-lets-get-started-99461ae4570e)
+
+The details can be found here: [stackoverflow_survey_analysis.ipynb](https://github.com/Enginamics/stackoverflow_survey_analysis/blob/main/stackoverflow_survey_analysis.ipynb)
 
 ## Files and Folders
 
