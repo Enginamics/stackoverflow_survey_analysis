@@ -1,8 +1,21 @@
 # stackoverflow_survey_analysis
 
-This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project.
+This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project and analyses the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) based on three self-posed questions.
 
 ![doc/logo.jpg](doc/logo.jpg)
+
+For the analysis the following Python version and packages were used (see chapter [Installing](#installing) for more details)   
+
+**Python Version:**   
+- Python 3.12.5
+
+**Packages:**   
+- matplotlib==3.9.2
+- notebook==7.2.2
+- numpy==2.1.0
+- pandas==2.2.2
+- scikit-learn==1.5.1
+- seaborn==0.13.2
 
 ## Table of Contents
 
