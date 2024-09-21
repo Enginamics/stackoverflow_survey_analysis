@@ -1,6 +1,6 @@
 # stackoverflow_survey_analysis
 
-This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course 2 project and analyses the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) based on the following three self-posed questions.
+This is a repository for the [Udacity - Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Course 2 project and analyses the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) based on the following three self-posed questions.
 
 When comparing the results from 2020 to 2024 ...
 
@@ -37,7 +37,7 @@ For the analysis the following Python version and packages were used (see chapte
 
 ## Project Motivation
 
-The main objective of this analysis is to get used to the data science process according to [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) taught during the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course and to apply the acquired knowledge to a real-world problem.
+The main objective of this analysis is to get used to the data science process according to [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) taught during the [Udacity - Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Course and to apply the acquired knowledge to a real-world problem.
 
 To achieve this, the analysis will use the [Stack Overflow surveys from 2020 to 2024](https://survey.stackoverflow.co/) to address the following three questions:
 
@@ -154,7 +154,7 @@ jupyter notebook stackoverflow_survey_analysis.ipynb
 
 Big thank's to Stack Overflow for providing the [survey results](https://survey.stackoverflow.co/)
 
-A special thanks to the [Udacity - Data Scientist](https://www.udacity.com/enrollment/nd025) Course, which made this analysis possible.
+A special thanks to the [Udacity - Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Course, which made this analysis possible.
 
 ## Troubleshooting
 
